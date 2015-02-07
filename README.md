@@ -24,7 +24,7 @@ Add some of the following to the `layouts` table in rc.lua
 
 Additionally, add the following to your beautiful theme:
 
-    theme.layout_leaved = "~/.config/awesome/awesome-leaved/leaved.png"
+    beautiful.layout_leaved = os.getenv("HOME") .. "/.config/awesome/awesome-leaved/leaved.png"
 
 using the correct path to the image file.
 
